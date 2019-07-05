@@ -27,7 +27,15 @@ body {
   line-height: 1.6;
   text-align: center;
 }
+.container {
+  display: flex;
+ align-items: center;
+ justify-content: center
+  width: 800px;
+  padding: 50px;
+  margin: 20px;
 
+}
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
