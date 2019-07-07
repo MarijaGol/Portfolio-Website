@@ -10,7 +10,7 @@ html {
   font-size: 16px;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: left;
   color: #333030
 }
 header {
@@ -27,10 +27,8 @@ body {
   line-height: 1.6;
   text-align: center;
 }
-.container {
-  display: flex;
- align-items: center;
- justify-content: center
+container {
+  position:left;
   width: 800px;
   padding: 50px;
   margin: 20px;
@@ -101,7 +99,7 @@ a:active {
   font-family: 'Muli', sans-serif;
 }
 
-.button {
+button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #F6F5F5;
@@ -112,7 +110,7 @@ a:active {
   padding: 20px;
 }
 
-.button:hover {
+button:hover {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none color:#34496b;
@@ -120,7 +118,7 @@ a:active {
   padding: 20px;
 }
 
-.button.contact:hover {
+button.contact:hover {
   background-color: #f8e5e5;
   color:#ADA0A0 !important;
   font-family: 'Muli', sans-serif;
