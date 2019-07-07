@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
   text-align: center;
 }
-container {
+container-fluid {
   position:left;
   width: 800px;
   padding: 50px;
