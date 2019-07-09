@@ -1,29 +1,41 @@
 /*
 Colors used:
-Primary Color (soft pink): #f8e5e5, RGB	248	229	229;
-Secondary Color (soft brown): #ADA0A0; RGB	173	160	160;
+Primary Color (soft pink): #E1C5C5;
+Secondary Color (soft brown): #ADA0A0;
+Tertiary Color (fluffy pink): #F8E5E5
 Text Color (Dark Gray): #333030, RGB	51	48	48;
-Backgroun Color (white): #F6F5F5; RGB	246	245	245;
-Visited link color (red): #8A7777
+Backgroun Color (white): #F5F5F5; RGB	246	245	245;
+Visited link color (red): #ADA0A0
 */
 html {
   font-size: 16px;
   width: 100%;
   height: 100%;
-  text-align: left;
-  color: #333030
+  text-align:left;
+  color: #FFFFFF;
 }
 header {
   width: 100%;
-  background-color: #F5F5F5;
+  height: 300px;
+  background-color:#F8E5E5;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ADA0A0;
+
 }
 .logo {
-  width:600px;
-  height: 400px;
+  position:left;
+  width:400px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
 
 }
 body {
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
   color: #333030;
   font-family: 'Muli', sans-serif;
   font-family: 'Montserrat', sans-serif;
