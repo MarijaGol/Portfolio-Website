@@ -7,33 +7,39 @@ Text Color (Dark Gray): #333030, RGB	51	48	48;
 Backgroun Color (white): #F5F5F5; RGB	246	245	245;
 Visited link color (red): #ADA0A0
 */
+
+
 html {
   font-size: 16px;
   width: 100%;
   height: 100%;
-  text-align:left;
+  text-align:center;
   color: #FFFFFF;
 }
+
+
 header {
+  position: relative;
   width: 100%;
-  height: 300px;
+  height: 220px;
   background-color:#F8E5E5;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  margin: 0 auto;
-  border-bottom: 2px solid #ADA0A0;
+  padding: 0;
+  margin: 0;
+  border-bottom: 0.5px solid #F8E5E5;
+  text-align: center;
+  box-shadow:4px 4px 13px 0px rgba(51, 50, 50, 0.32);
+  box-shadow position: relative;
 
 }
 .logo {
-  position:left;
-  width:400px;
-  height: 200px;
-  padding: 10px;
+  text-align: center;
+  max-width: 450px;
+  max-height: 250px;
+  padding: 25px;
   margin: 10px;
-
 }
+
+/* Layout styling */
 body {
   background-color: #FFFFFF;
   color: #333030;
@@ -41,21 +47,80 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300, 400, 700;
   line-height: 1.6;
+}
+
+nav> ul {
+  list-style-type: none;
+  padding: 0;
   text-align: center;
 }
-container-fluid {
-  position:left;
+nav > ul > li {
+  display: inline-block;
+}
+
+
+nav > ul > li > a:visited {
+  color: #333030;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:hover {
+  color:#E1C5C5;
+  text-decoration: underline;
+}
+nav > ul > li > a {
+  padding: 25px 15px 15px 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ADA0A0;
+}
+main {
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: auto;
+}
+.container {
+  padding: 0 15px;
   width: 800px;
-  padding: 50px;
   margin: 20px;
+  text-align:center;
+  position:center;
+}
+.containerCase{
 
 }
+.containerFooter{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color:#FFFFFF;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: 0 auto;
+
+}
+p.contact{
+  text-align: center;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work.row {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+  text-align:center;
+
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #333030;
   line-height: 1.75em;
-  text-align: center;
+  text-align:left;
 }
 
 
@@ -69,6 +134,7 @@ h1 {
   font-size: 2em;
   font-weight: 700;
   text-align: center;
+  padding: 80px 0px 0px;
 }
 
 h2 {
@@ -81,8 +147,8 @@ h2 {
 
 h3 {
   font-family: 'Muli', sans-serif;
-  color: #333030;
-  font-size: 1.25em;
+  color: #E1C5C5;
+  font-size: 1.50em;
   font-weight: 400;
   text-align: center;
 }
@@ -101,7 +167,7 @@ a:link {
 a:visited {
   color: #8A7777;
   font-family: 'Muli', sans-serif;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 a:hover {
@@ -115,7 +181,7 @@ a:active {
   font-family: 'Muli', sans-serif;
 }
 
-button {
+.button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #F6F5F5;
@@ -126,7 +192,7 @@ button {
   padding: 20px;
 }
 
-button:hover {
+.button:hover {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none color:#34496b;
@@ -134,7 +200,7 @@ button:hover {
   padding: 20px;
 }
 
-button.contact:hover {
+.button.contact:hover {
   background-color: #f8e5e5;
   color:#ADA0A0 !important;
   font-family: 'Muli', sans-serif;
