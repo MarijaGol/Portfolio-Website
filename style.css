@@ -47,6 +47,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300, 400, 700;
   line-height: 1.6;
+  display:block;
 }
 
 nav> ul {
@@ -82,9 +83,17 @@ main {
   width: 800px;
   margin: 20px;
   text-align:center;
-  position:relative;
+  display: inline-block;
 }
-.containerCase{
+.containerCase {
+  display: inline-block;
+    text-align: center;
+}
+.about{
+  display:block;
+  text-align: center;
+}
+.container-about{
 
 }
 .containerFooter{
@@ -99,16 +108,13 @@ main {
   margin: 0 auto;
 
 }
-p.contact{
-  text-align: center;
-}
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 #work.row {
   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
   text-align:center;
-
 }
 
 p {
@@ -118,7 +124,9 @@ p {
   line-height: 1.75em;
   text-align:left;
 }
-
+p.contact{
+  text-align: center;
+}
 
 h1, h2, h3, h4 {
   line-height: 1.75;
@@ -151,6 +159,11 @@ h3 {
 
 img {
   width: 100%;
+}
+.myphoto{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
 }
 
 a:link {
