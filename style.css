@@ -75,7 +75,7 @@ header {
 /*styling of the navigation bar, exercise 1.7*/
 nav>ul {
   list-style-type: none;
-  padding-right:10px;
+  padding-right:15px;
   margin-right: 20px;
   margin-top: 55px;
   text-align: right;
@@ -85,7 +85,7 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
 }
-}
+
 
 nav>ul>li>a {
   color: #696969;
@@ -99,10 +99,10 @@ nav>ul>li>a:active {
 }
 
 nav>ul>li>a:hover {
-  color: #501927;
+  color: #F0DCD4;
   text-decoration: none;
   /* Underlining when hovering over a link deleted*/
-  transition: 0.5;
+  transition: all 0.5;
 }
 
 ul>li {
@@ -134,6 +134,10 @@ ul>li {
   max-width: 1200px;
 }
 
+.container-about{
+  text-align: center;
+  margin: 0 auto;
+}
 
 
 .container-case {
@@ -327,7 +331,7 @@ a:focus {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .button:active {
@@ -349,7 +353,7 @@ a:focus {
   background-color: #EFD0CA;
   color: #FFFFFF !important;
   border-radius: 5px;
-  transition: 0.2s;
+  transition: all 0.5s;
   font-size: 1.2em;
   padding: 5px 5px;
   margin: 0 auto;
