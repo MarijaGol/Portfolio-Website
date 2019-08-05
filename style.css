@@ -10,7 +10,6 @@ Paragraph text color (soft gray): #696969;
 */
 * {
   box-sizing: border-box;
-
 }
 
 [class*="col-"] {
@@ -61,7 +60,8 @@ header {
 #work.row {
   padding-bottom: 25px;
 }
-#about h4{
+
+#about h4 {
   text-align: center;
   padding: 20px;
 }
@@ -75,7 +75,7 @@ header {
 /*styling of the navigation bar, exercise 1.7*/
 nav>ul {
   list-style-type: none;
-  padding-right:15px;
+  padding-right: 15px;
   margin-right: 20px;
   margin-top: 55px;
   text-align: right;
@@ -85,7 +85,6 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
 }
-
 
 nav>ul>li>a {
   color: #696969;
@@ -109,11 +108,12 @@ ul>li {
   list-style-type: none;
   text-align: center;
 }
-.myphoto{
- max-width: 500px;
- max-height: 500px;
- padding: 20px;
- text-align: center;
+
+.myphoto {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 20px;
+  text-align: center;
 }
 
 .main {
@@ -121,10 +121,11 @@ ul>li {
   padding: 100px;
 }
 
-.container-header{
+.container-header {
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
+
 .container {
   padding: 20px 20px;
   text-align: left;
@@ -134,11 +135,10 @@ ul>li {
   max-width: 1200px;
 }
 
-.container-about{
+.container-about {
   text-align: center;
   margin: 0 auto;
 }
-
 
 .container-case {
   text-align: center;
@@ -161,28 +161,26 @@ ul>li {
 footer {
   text-align: center;
   height: 300px;
-  padding:5px;
+  padding: 5px;
   margin: 0 auto;
   background-color: #F5F5F5;
   border-top: 2px solid #EFD0CA;
 }
 
-.social a {
+.social a {}
 
-}
-.fa-linkedin{
+.fa-linkedin {
   padding: 10px 0 0 0;
   margin: 0px;
   display: inline-block;
   font-size: 60px;
-
 }
-.fa-behance-square{
+
+.fa-behance-square {
   padding: 10px 0 0 0;
   margin: 0px;
   display: inline-block;
   font-size: 60px;
-
 }
 
 p {
@@ -321,7 +319,7 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #F0DCD4;
   /* width of the border, type, color */
-  margin-left: 0 ;
+  margin-left: 0;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
