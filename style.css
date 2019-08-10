@@ -10,6 +10,7 @@ Paragraph text color (soft gray): #696969;
 */
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 [class*="col-"] {
@@ -91,13 +92,14 @@ nav>ul>li>a:hover {
   padding: 0 0 10px;
 }
 /* new thing added 2.3*/
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 .navtoggle.responsive li  {
   display: block;
 }
 
-.navtoggle li:not(:last-child) {
-  display: none;
-}
 
 .navtoggle li .icon {
   position: absolute;
@@ -106,6 +108,7 @@ nav>ul>li>a:hover {
   font-size: 20px;
   padding-right: 0;
 }
+/* ---------------------*/
 
 ul>li {
   list-style-type: none;
@@ -114,7 +117,7 @@ ul>li {
 
 #hero {
   background-color: #FFFFFF;
-  margin: 40px 0;
+  margin: 60px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -288,7 +291,7 @@ h2 {
   font-weight: 300;
   color: #501927;
   text-align: left;
-  padding: 15px;
+  padding: 0;
 }
 
 h3 {
@@ -301,7 +304,7 @@ h3 {
 
 h4 {
   font-family: 'Proza Libre', sans-serif;
-  font-size: 1.35em;
+  font-size: 1.1em;
   font-weight: 400;
   text-align: center;
   padding: 5px;
@@ -358,6 +361,7 @@ a:focus {
 .button:hover,
 .button:focus {
   opacity: 0.8;
+    padding: 5px;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   margin-left: 0;
@@ -365,7 +369,8 @@ a:focus {
 
 .button:active {
   background-color: #F0DCD4;
-  margin-left: 10px;
+  margin-left: 0;
+ padding: 5px;
 }
 
 .button-contact {
@@ -375,6 +380,7 @@ a:focus {
   font-size: 1.2em;
   padding: 5px 5px;
   margin: 0 auto;
+  padding: 5px;
   border-radius: 3px;
 }
 
