@@ -1,4 +1,4 @@
-/*
+//*
 Colors used:
 Primary Color (dark cherry): #350011;
 Secondary Color (cherry): #501927;
@@ -74,11 +74,12 @@ nav>ul>li>a:hover {
   /* Underlining when hovering over a link deleted*/
   transition: all 0.5;
 }
+/* new thing added 2.3*/
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
-  /* new thing added 2.3*/
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -92,9 +93,6 @@ nav>ul>li>a:hover {
   padding: 0 0 10px;
 }
 /* new thing added 2.3*/
-.navtoggle li:not(:last-child) {
-  display: none;
-}
 
 .navtoggle.responsive li  {
   display: block;
@@ -107,6 +105,9 @@ nav>ul>li>a:hover {
   top: 45px;
   font-size: 20px;
   padding-right: 0;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 /* ---------------------*/
 
