@@ -83,6 +83,9 @@ nav>ul>li>a:hover {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
+.navtoggle.responsive ul{
+  display: block;
+}
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
