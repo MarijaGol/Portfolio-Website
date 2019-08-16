@@ -199,7 +199,7 @@ ul>li {
 
 footer {
   text-align: center;
-  height: 300px;
+  height: 100%;
   padding: 5px;
   margin: 0 auto;
   background-color: #F5F5F5;
@@ -210,14 +210,14 @@ footer {
 
 .fa-linkedin {
   padding: 10px;
-  margin: 0px;
+  margin: 20px 0 0 0;
   display: inline-block;
   font-size: 60px;
 }
 
 .fa-behance-square {
   padding: 10px;
-  margin: 0px;
+  margin: 20px 0 0 0;
   display: inline-block;
   font-size: 60px;
 }
@@ -320,8 +320,9 @@ h5 {
   font-size: 0.6em;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 5px;
-  padding-top: 40px;
+  padding-bottom: 0;
+  padding-top: 50px;
+
 }
 
 img {
