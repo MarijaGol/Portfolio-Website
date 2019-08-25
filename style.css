@@ -18,7 +18,7 @@ Paragraph text color (soft gray): #696969;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #fbfbfb;
   font-family: 'Proza Libre', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -74,6 +74,7 @@ nav>ul>li>a:hover {
   /* Underlining when hovering over a link deleted*/
   transition: all 0.5;
 }
+
 /* new thing added 2.3*/
 
 .navtoggle, .navtoggle.responsive {
@@ -121,7 +122,7 @@ ul>li {
 }
 
 #hero {
-  background-color: #FFFFFF;
+  background-color: #fbfbfb;
   margin: 60px 0;
   display: inline-block;
   width: 100%;
@@ -208,8 +209,6 @@ footer {
   border-top: 2px solid #3A405A;
 }
 
-.social a {}
-
 .fa-linkedin {
   padding: 10px;
   margin: 20px 0 0 0;
@@ -217,7 +216,6 @@ footer {
   font-size: 60px;
    color: #6D1A36;
 }
-
 .fa-behance-square {
   padding: 10px;
   margin: 20px 0 0 0;
@@ -337,7 +335,7 @@ img {
 }
 
 a {
-  color:  #53917E;
+  color:  #6D1A36;
   font-size: 1em;
   /* No underlining */
   margin: 0 auto;
@@ -361,7 +359,7 @@ a:focus {
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #6D1A36;
   opacity: 0.8;
-  color: #ffffff !important;
+  color: #fbfbfb !important;
   /* needed to override the default link color */
   text-decoration: none;
   font-weight: 300;
@@ -399,13 +397,12 @@ opacity: 1;
   font-size: 1.2em;
   padding: 5px 5px;
   margin: 0 auto;
-  padding: 5px;
   border-radius: 3px;
 }
 
 .button-contact:hover {
   background-color: #3A405A;
-  color: #FFFFFF !important;
+  color: #fbfbfb !important;
   border-radius: 5px;
   transition: all 0.5s;
   font-size: 1.2em;
