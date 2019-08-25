@@ -335,6 +335,7 @@ h5 {
 
 img {
   width: 100%;
+   max-width:767px;
 }
 
 a {
@@ -460,7 +461,7 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
-}
+
 
 /* ==============================
 Large devices (1024px or larger)
