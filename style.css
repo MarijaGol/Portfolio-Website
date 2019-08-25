@@ -171,7 +171,7 @@ ul>li {
   margin-left: auto;
   margin-right: auto;
   float: inherit;
-  max-width: 200px;
+  max-width: 1200px;
 }
 
 .container-about {
@@ -459,15 +459,7 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
-  
-  .container {
-    padding: 20px 20px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    float: inherit;
-    max-width: 1200px;
-  }
+
 
 /* ==============================
 Large devices (1024px or larger)
