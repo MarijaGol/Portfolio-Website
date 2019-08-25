@@ -365,7 +365,8 @@ a:focus {
   color: #ffffff !important;
   /* needed to override the default link color */
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1em;
   padding: 5px;
   border-radius: 3px;
   border-bottom: 2px solid #F0DCD4;
@@ -380,6 +381,7 @@ a:focus {
 opacity: 1;
   color: #3A405A;
     padding: 5px;
+    font-size: 1em;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   margin-left: 0;
