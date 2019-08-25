@@ -171,7 +171,7 @@ ul>li {
   margin-left: auto;
   margin-right: auto;
   float: inherit;
-  max-width: 1200px;
+  max-width: 200px;
 }
 
 .container-about {
@@ -259,12 +259,10 @@ p {
   from {
     fill: #edc655;
   }
-
   to {
     fill: #f76414;
   }
 }
-
 @keyframes cloud-move {
   from {
     transform: translate(0, 50px);
@@ -461,7 +459,15 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
-
+  
+  .container {
+    padding: 20px 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: inherit;
+    max-width: 1200px;
+  }
 
 /* ==============================
 Large devices (1024px or larger)
