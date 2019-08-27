@@ -19,7 +19,6 @@ Paragraph text color (soft gray): #696969;
 
 body {
   background-color: #FFFFFF;
-  font-family: 'Proza Libre', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -72,7 +71,7 @@ nav>ul>li>a:hover {
   color:#6D1A36;
   text-decoration: none;
   /* Underlining when hovering over a link deleted*/
-  transition: all 0.5;
+  transition: all 0.5s;
 }
 /* new thing added 2.3*/
 
