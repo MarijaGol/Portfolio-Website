@@ -318,8 +318,8 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
-  text-align: inherit;
-  padding: 5px;
+  text-align: left;
+  padding: 5px 0;
 }
 
 h5 {
@@ -451,7 +451,7 @@ Medium devices (640px and larger)
   }
 
 
-}
+
   body {
     font-size: 18px;
   }
@@ -460,7 +460,7 @@ Medium devices (640px and larger)
     width: 50%;
   }
 }
-
+}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
