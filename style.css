@@ -116,7 +116,7 @@ nav>ul>li>a:hover {
 
 ul>li {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
 }
 
 #hero {
