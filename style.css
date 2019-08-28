@@ -98,7 +98,7 @@ nav>ul>li>a:hover {
 
 ul>li {
   list-style-type: none;
-  text-align: inherit;
+  text-align: left;
 }
 
 #hero {
