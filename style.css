@@ -99,6 +99,7 @@ nav>ul>li>a:hover {
 ul>li {
   list-style-type: none;
   text-align: left;
+
 }
 
 #hero {
@@ -123,7 +124,7 @@ ul>li {
 }
 
 #about h4 {
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
