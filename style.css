@@ -457,7 +457,7 @@ Medium devices (640px and larger)
 
 
   .col-md-6 {
-    width: 50%;
+    width: 100%;
   }
 }
 }
@@ -466,9 +466,9 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .col-md-6 {
-    width: 50%;
+    width: 100%;
   }
   img {
-    max-width: 1440px;
+  width: 1440px;
   }
 }
