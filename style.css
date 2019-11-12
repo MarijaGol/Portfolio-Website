@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Colors used:
 Primary Color (dark cherry):
@@ -8,11 +9,12 @@ Text Color
 Paragraph text color (soft gray): #696969;
 
 */
+=======
+>>>>>>> gh-pages
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 [class*="col-"] {
   float: left;
 }
@@ -31,7 +33,7 @@ body {
 header {
   background-color: #F5F5F5;
   margin: 0 auto;
-  box-shadow:6px 6px 25px 0px rgba(50, 50, 50, 0.34);
+  box-shadow: 6px 6px 25px 0px rgba(50, 50, 50, 0.34);
   width: 100%;
   height: auto;
   font-size: 1em;
@@ -44,17 +46,11 @@ header {
   margin-left: 20px;
 }
 
-/*styling of the navigation bar, exercise 1.7*/
-
-
-
 nav>ul {
   list-style-type: none;
- padding: 0;
- margin: 0;
-
+  padding: 0;
+  margin: 0;
 }
-
 
 nav>ul>li>a {
   color: #696969;
@@ -68,12 +64,15 @@ nav>ul>li>a:active {
 }
 
 nav>ul>li>a:hover {
+<<<<<<< HEAD
   color:#6D1A36;
+=======
+  color: #6D1A36;
+>>>>>>> gh-pages
   text-decoration: none;
   /* Underlining when hovering over a link deleted*/
   transition: all 0.5s;
 }
-/* new thing added 2.3*/
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
@@ -82,25 +81,27 @@ nav>ul>li>a:hover {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive ul{
+
+.navtoggle.responsive ul {
   display: block;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
-/* new thing added 2.3*/
 
+/* new thing added 2.3*/
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
@@ -112,11 +113,13 @@ nav>ul>li>a:hover {
   padding-right: 0;
 }
 
-/* ---------------------*/
-
 ul>li {
   list-style-type: none;
   text-align: left;
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
 }
 
 #hero {
@@ -134,33 +137,36 @@ ul>li {
 #hero h1 {
   text-align: center;
   margin: 0;
+<<<<<<< HEAD
 
   /* Centers text */
+=======
+>>>>>>> gh-pages
 }
 
-/*this is only for the work*row, explained in 1.7*/
 #work.row {
   padding-bottom: 25px;
 }
 
 #about h4 {
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
-
 
 .myphoto {
   max-width: 1200px;
   max-height: 600px;
+<<<<<<< HEAD
   padding:0 0 30px 0;
+=======
+  padding: 0 0 30px 0;
+>>>>>>> gh-pages
   text-align: center;
 }
 
-
-
 .container-header {
   width: 100%;
-  height:100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -210,14 +216,16 @@ footer {
   border-top: 2px solid #3A405A;
 }
 
-.social a {}
-
 .fa-linkedin {
   padding: 10px;
   margin: 20px 0 0 0;
   display: inline-block;
   font-size: 60px;
+<<<<<<< HEAD
    color: #6D1A36;
+=======
+  color: #6D1A36;
+>>>>>>> gh-pages
 }
 
 .fa-behance-square {
@@ -225,11 +233,20 @@ footer {
   margin: 20px 0 0 0;
   display: inline-block;
   font-size: 60px;
+<<<<<<< HEAD
   color:   #6D1A36;
 }
 .fa-linkedin:hover,
 .fa-behance-square:hover {
   color:  #3A405A;
+=======
+  color: #6D1A36;
+}
+
+.fa-linkedin:hover,
+.fa-behance-square:hover {
+  color: #3A405A;
+>>>>>>> gh-pages
 }
 
 p {
@@ -322,6 +339,10 @@ h4 {
   font-size: 1.6em;
   font-weight: 300;
   text-align: left;
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
 }
 
 h5 {
@@ -331,6 +352,7 @@ h5 {
   text-align: center;
   padding-bottom: 0;
   padding-top: 50px;
+<<<<<<< HEAD
 
 }
 
@@ -340,6 +362,17 @@ img {
 
 a {
   color:  #53917E;
+=======
+}
+
+img {
+  width: 100%;
+  max-width: 1440px;
+}
+
+a {
+  color: #6D1A36;
+>>>>>>> gh-pages
   font-size: 1em;
   /* No underlining */
   margin: 0 auto;
@@ -379,10 +412,17 @@ a:focus {
 
 .button:hover,
 .button:focus {
+<<<<<<< HEAD
 opacity: 1;
   color: #3A405A;
     padding: 5px;
     font-size: 1em;
+=======
+  opacity: 1;
+  color: #3A405A;
+  padding: 5px;
+  font-size: 1em;
+>>>>>>> gh-pages
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   margin-left: 0;
@@ -391,17 +431,20 @@ opacity: 1;
 .button:active {
   background-color: #6D1A36;
   margin-left: 0;
- padding: 5px;
+  padding: 5px;
 }
 
 .button-contact {
   background-color: transparent;
+<<<<<<< HEAD
   color:   #6D1A36 !important;
+=======
+  color: #6D1A36 !important;
+>>>>>>> gh-pages
   font-weight: 400;
   font-size: 1.2em;
   padding: 5px 5px;
   margin: 0 auto;
-  padding: 5px;
   border-radius: 3px;
 }
 
@@ -416,6 +459,7 @@ opacity: 1;
   border-radius: 3px;
 }
 
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -428,11 +472,12 @@ Medium devices (640px and larger)
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
-  .navtoggle li:last-child {
-  display: none;
-}
 
- nav {
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav {
     width: auto;
     float: right;
     margin-top: 4px;
@@ -447,12 +492,12 @@ Medium devices (640px and larger)
     width: 100%;
   }
 
-
   nav>ul>li {
     display: inline-block;
   }
 
 
+<<<<<<< HEAD
 
   body {
     font-size: 18px;
@@ -462,6 +507,15 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 100%;
   }
+=======
+body {
+  font-size: 18px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+>>>>>>> gh-pages
 }
 }
 /* ==============================
